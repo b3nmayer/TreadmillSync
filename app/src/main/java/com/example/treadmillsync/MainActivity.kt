@@ -136,6 +136,7 @@ class MainActivity : ComponentActivity() {
         } else {
             startService(intent)
         }
+        // Initial start of advertising
         viewModel.bleManager?.startAdvertising()
     }
 }
@@ -175,7 +176,7 @@ fun TreadmillApp(viewModel: MainViewModel) {
             if (isSettings) {
                 SettingsScreen(viewModel, onBack = { 
                     showSettings = false 
-                    viewModel.bleManager?.startAdvertising()
+                    // REMOVED: Re-advertising on back. This kills the connection if already paired.
                 })
             } else {
                 MainControlScreen(viewModel, onOpenSettings = { showSettings = true })
