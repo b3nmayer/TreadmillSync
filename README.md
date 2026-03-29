@@ -42,18 +42,6 @@ Built with a focus on modern Android architecture and a "Cyberpunk" aesthetic.
 
 ---
 
-## 📱 Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/yourusername/TreadmillSync.git](https://github.com/yourusername/TreadmillSync.git)
-    ```
-2.  **Open the project** in Android Studio Hedgehog (or newer).
-3.  **Build and run** on a physical Android device.
-    > **Note:** Emulators do not support BLE Advertising.
-
----
-
 ## 🔧 Project Structure
 
 * `BleManager.kt`: The core Bluetooth engine handling GATT services and advertising packets.
