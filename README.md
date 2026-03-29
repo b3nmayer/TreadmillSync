@@ -2,7 +2,7 @@
 
 **TreadmillSync** is an Android utility that turns your smartphone into a virtual **BLE (Bluetooth Low Energy) Foot Pod**. It broadcasts speed and cadence data directly to your Garmin, COROS, Suunto, or Apple Watch, allowing you to sync indoor treadmill runs without extra hardware.
 
-![screenshot](app_screenshot.png){width=50% height=50%}
+![screenshot](app_screenshot.png)
 
 ---
 
