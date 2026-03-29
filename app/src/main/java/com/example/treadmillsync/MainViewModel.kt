@@ -16,7 +16,6 @@ class MainViewModel : ViewModel() {
     var bleManager: BleManager? = null
     var bleService: BleService? = null
 
-    // Updated defaults as requested: 5, 11, 12, 13, 14, 15, 16, 17, 18
     var presetsMetric by mutableStateOf(listOf(5f, 11f, 12f, 13f, 14f, 15f, 16f, 17f, 18f))
     var presetsImperial by mutableStateOf(listOf(3.1f, 6.8f, 7.5f, 8.1f, 8.7f, 9.3f, 10f, 10.6f, 11.2f))
 
